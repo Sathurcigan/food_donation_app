@@ -1,13 +1,13 @@
 import 'dart:convert';
-import 'package:flutter/material.dart';
+import 'package:food_donation_app/screens/createRequest_screen.dart';
 import 'package:food_donation_app/screens/tracking_screen.dart';
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
 import '../widgets/Footer.dart';
 import '../widgets/appBarWidget.dart';
 import '../widgets/headingWidgets.dart';
-import 'createRequest_screen.dart';
 
 class BeneficiaryRequestScreen extends StatefulWidget {
   const BeneficiaryRequestScreen({super.key});
@@ -87,7 +87,7 @@ class _BeneficiaryRequestScreenState extends State<BeneficiaryRequestScreen> {
               children: const [
                 Padding(
                   padding: EdgeInsets.only(right: 10),
-                  child: Icon(Icons.add, size: 30),
+                  child: Icon(Icons.add, size: 30, color: Colors.white,),
                 ),
                 Text(
                   "New Request",

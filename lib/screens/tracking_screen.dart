@@ -1,16 +1,15 @@
 import 'dart:convert';
+import 'package:food_donation_app/constants.dart';
+import 'package:food_donation_app/screens/beneficiaryRequest_screen.dart';
+import 'package:food_donation_app/widgets/Footer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import '../APIs/tracking/tracking-api.dart';
 import '../APIs/tracking/tracking.dart';
-import '../constants.dart';
-import '../widgets/Footer.dart';
 import '../widgets/FormButton.dart';
 import '../widgets/appBarWidget.dart';
 import 'package:http/http.dart' as http;
-
-import 'beneficiaryRequest_screen.dart';
 
 class TrackingScreen extends StatefulWidget {
   const TrackingScreen({super.key});
@@ -37,7 +36,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
       body: Column(
         children: [
           SizedBox(
-            height: screenHeight * 0.845,
+            height: screenHeight * 0.86,
             child: Stack(
               children: [
                 Padding(
@@ -45,7 +44,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
                   child: Column(
                     children: [
                       SizedBox(
-                        height: screenHeight * 0.29,
+                        height: screenHeight * 0.27,
                       ),
                       FutureBuilder(
                         future: fetchTracking(),

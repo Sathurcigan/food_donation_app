@@ -1,11 +1,11 @@
+import 'package:food_donation_app/constants.dart';
+import 'package:food_donation_app/widgets/InputField.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../APIs/user/user-api.dart';
 import '../APIs/user/user.dart';
-import '../constants.dart';
 import '../widgets/Footer.dart';
-import '../widgets/InputField.dart';
 import 'menu_screen.dart';
 
 class AccountScreen extends StatefulWidget {

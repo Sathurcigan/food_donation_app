@@ -1,19 +1,19 @@
+import 'package:food_donation_app/screens/account_screen.dart';
+import 'package:food_donation_app/screens/beneficiaryRequest_screen.dart';
+import 'package:food_donation_app/screens/createVolunteer.dart';
+import 'package:food_donation_app/screens/feedback_screen.dart';
+import 'package:food_donation_app/screens/foodDonate_screen.dart';
+import 'package:food_donation_app/screens/home_screen.dart';
+import 'package:food_donation_app/screens/login_screen.dart';
+import 'package:food_donation_app/screens/notification_screen.dart';
+import 'package:food_donation_app/screens/requestScreen.dart';
+import 'package:food_donation_app/widgets/Footer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
-import 'package:food_donation_app/screens/requestScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
-import '../widgets/Footer.dart';
 import '../widgets/menuWidget.dart';
-import 'account_screen.dart';
-import 'beneficiaryRequest_screen.dart';
-import 'createVolunteer.dart';
-import 'feedback_screen.dart';
-import 'foodDonate_screen.dart';
-import 'home_screen.dart';
-import 'login_screen.dart';
-import 'notification_screen.dart';
 
 class Menu extends StatefulWidget {
   const Menu({super.key});
@@ -172,7 +172,7 @@ class _MenuState extends State<Menu> {
               );
             },
             backgroundColor: theme_color,
-            child: const Icon(Icons.add, size: 30),
+            child: const Icon(Icons.add, size: 30, color: Colors.white,),
           ),
         ),
       ),

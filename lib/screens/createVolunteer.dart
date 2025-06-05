@@ -1,9 +1,9 @@
 import 'dart:convert';
+import 'package:food_donation_app/widgets/Footer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import '../constants.dart';
-import '../widgets/Footer.dart';
 import '../widgets/FormButton.dart';
 import '../widgets/InputField.dart';
 import '../widgets/appBarWidget.dart';

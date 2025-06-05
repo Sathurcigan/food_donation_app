@@ -1,6 +1,6 @@
 import 'dart:convert';
+import 'package:food_donation_app/constants.dart';
 import 'package:flutter/material.dart';
-import '../constants.dart';
 import '../widgets/Footer.dart';
 import '../widgets/appBarWidget.dart';
 import '../widgets/headingWidgets.dart';

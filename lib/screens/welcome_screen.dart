@@ -1,8 +1,8 @@
+import 'package:food_donation_app/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import '../constants.dart';
 import '../widgets/Footer.dart';
 import '../widgets/FormButton.dart';
-import 'login_screen.dart';
 
 class Welcome_screen extends StatelessWidget {
   const Welcome_screen({Key? key}) : super(key: key);

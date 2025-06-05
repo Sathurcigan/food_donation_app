@@ -1,10 +1,10 @@
+import 'package:food_donation_app/constants.dart';
+import 'package:food_donation_app/screens/requestScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../APIs/home/homeDonation.dart';
 import '../APIs/home/homePrediction.dart';
 import '../APIs/home/homeRequest.dart';
-import '../constants.dart';
-import '../screens/requestScreen.dart';
 
 class homeBadgeWidget extends StatelessWidget {
   final double screenWidth;
@@ -85,7 +85,7 @@ class homeRequestWidget extends StatelessWidget {
                 alignment: AlignmentDirectional.center,
                 height: screenWidth * 0.2,
                 child: Image.network(
-                  "http://10.0.2.2/feed_aid_app/assets/food/${req.fImage}",
+                  "http://10.0.2.2/food_donation_app/assets/food/${req.fImage}",
                   fit: BoxFit.fitHeight,
                 ),
               ),

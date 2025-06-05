@@ -1,6 +1,5 @@
+import 'package:food_donation_app/constants.dart';
 import 'package:flutter/material.dart';
-
-import '../constants.dart';
 
 class footer extends StatelessWidget {
   const footer({
